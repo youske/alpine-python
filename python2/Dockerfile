@@ -10,4 +10,4 @@ RUN apk add --no-cache python && \
     python -m ensurepip && \
     rm -rf /usr/lib/python*/ensurepip && \
     pip install --upgrade pip setuptools virtualenv && \
-    rm -rf /root/.cache /tmp/*
+    rm -rf /root/.cache /tmp/* 
